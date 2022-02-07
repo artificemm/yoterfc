@@ -1,0 +1,23 @@
+%h1 RFC Generator
+%p 
+  Welcome to the RFC generator app. Please send your request as
+  %pre JSON
+  format with the following pattern:
+
+%pre
+  %code
+    {
+    "name": "Nancy",
+    "last_name": "Chávez",
+    "second_last_name": "Vázquez",
+    "birthdate": "1990-05-29"
+    }
+
+%p Which in turn will return the following response:
+
+%pre
+  %code
+    {
+    "rfc": "CAVN9000529",
+    "count": 1
+    }
