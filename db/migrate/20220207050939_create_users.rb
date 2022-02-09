@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :second_last_name
       t.date :birthdate
       t.string :rfc
-      t.integer :count
+      t.integer :count, default: 0
 
       t.timestamps
     end

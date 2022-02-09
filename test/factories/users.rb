@@ -1,10 +1,10 @@
 FactoryBot.define do
   factory :user do
-    name { "MyString" }
-    last_name { "MyString" }
-    second_last_name { "MyString" }
-    birthdate { "2022-02-06" }
-    rfc { "MyString" }
-    count { 1 }
+    name { "Name" }
+    last_name { "Father" }
+    second_last_name { "Mother" }
+    birthdate { "1985-10-21" }
+    # rfc { "MyString" }
+    # count { 1 }
   end
 end
