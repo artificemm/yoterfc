@@ -8,7 +8,6 @@ class RfcGenerator
   def initialize(user:)
     @user = user.attributes.slice('name', 'last_name', 'second_last_name')
     @date = user.birthdate
-    @rfc = ''
   end
 
   def rule_12

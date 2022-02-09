@@ -4,6 +4,8 @@ class User < ApplicationRecord
 
 
   def generate_rfc
+    code = RfcGenerator.new(user: self)
+    self.rfc = code.to_s
   end
 
   private
